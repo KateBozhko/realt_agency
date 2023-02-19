@@ -8,7 +8,7 @@ body {
 .main {
     height: 100vh;
     margin: 0 auto;
-    background-image: linear-gradient(rgba(101, 38, 38, 0.4),rgba(67, 38, 52, 0.6));
+    background-image: linear-gradient(rgba(29, 18, 18, 0.4),rgba(67, 38, 52, 0.6));
 }
 
 /*HEADER STYLE START*/
@@ -26,6 +26,7 @@ nav {
     font-weight: bold;
     box-shadow: 20px 2px 20px;
     width: 100%;
+    
     
 }
 .link:hover {
@@ -52,3 +53,33 @@ h1 {
     max-width: 700px;
 }
 /*Intro STYLE END*/
+/*Buttons STYLE Start*/
+.wrapper {
+    max-width: 1000px;
+    background-color: azure;
+    margin: 0 auto;
+    height: 350px;
+    margin-top: 200px;
+    box-shadow: 20px 2px 20px;
+}
+.filter-title {
+    display: flex;
+    justify-content: center;
+}
+.buttons-position {
+    display: flex;
+    justify-content: center;
+     flex-direction: column;
+ 
+}
+button {
+    font-size: 20px;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 50px;
+    box-shadow: 20px 2px 20px;
+}
+
+
+
+/*Buttons STYLE end*/
