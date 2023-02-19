@@ -11,11 +11,11 @@ import Shop from "./Shop";
 import Contacts from "./Contacts";
 import About from "./About";
 import image from "./logo.jpg"
+import Intro from "./Intro";
 
 
 function App() {
-  return(
-    
+  return(<div className="main">
 <Router>
 <nav>
 <Link to="/" className="link">Shop</Link>
@@ -28,7 +28,7 @@ function App() {
 <Route path="/contacts" element={<Contacts/>}/>
 </Routes>
 </Router>
+ </div> )
 
-  );
 }
 export default App;

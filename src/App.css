@@ -5,6 +5,13 @@ body {
     background-color: black;
     flex-wrap: wrap;
 }
+.main {
+    height: 100vh;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(101, 38, 38, 0.4),rgba(67, 38, 52, 0.6));
+}
+
+/*HEADER STYLE START*/
 .link {
     text-decoration: none;
     color: black;
@@ -14,9 +21,34 @@ nav {
     height: 10vh;
     display: flex;
     justify-content: space-around;
-  align-items: center;
+    align-items: center;
     margin-right: 50px;
     font-weight: bold;
     box-shadow: 20px 2px 20px;
     width: 100%;
+    
 }
+.link:hover {
+    transform: scale(1.4);
+   box-shadow: 8px 5px 8px 5px;
+}
+/*HEADER STYLE END*/
+
+/*Intro STYLE START*/
+
+    
+.title {
+    margin-top: 150px;
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.information {
+    font-size: 25px;
+    color: wheat;
+    margin-left: 650px;
+}
+h1 {
+    max-width: 700px;
+}
+/*Intro STYLE END*/
