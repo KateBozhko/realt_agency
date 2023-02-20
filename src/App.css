@@ -2,8 +2,9 @@ body {
     background-image: url("http://akn.by/fileadmin/user_upload/267_karkasnyy-dom.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-   
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 .main {
  height: 100vh;
@@ -89,3 +90,10 @@ button:hover {
    box-shadow: 8px 5px 8px 5px;
 }
 /*Buttons STYLE end*/
+
+/*Houses STYLE Start*/
+.houses-wrapper {
+    display: flex;
+    
+    
+}
