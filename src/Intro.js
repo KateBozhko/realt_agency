@@ -1,9 +1,11 @@
-import "./App.css"
+import "./App.css";
+import logo from "./logo.jpg"
 
 function Intro() {
     return(
         <div className="container">
         <div className="title">
+            <img className="logo" src={logo} width="50px" alt="logo"/>
         <h1>Find the best house in your life...</h1>
         </div>
 <div className="information">

@@ -1,17 +1,17 @@
 export const data = [
 {
 id: 1,
-searchTerm: "studio",
+searchTerm: "four",
 name: "Studio apartment",
 adress: "1292 ALBANY AVE BROOKLYN NY 11203-5638 USA",
 price: 320000,
-description: "One bathroom apartment, close to schools, shopping centres and park, has a new furniture. Furnished, some new windows, new carpet. For further information contact an agent: Paolo Garsia. Phone: +1 234 567-89-00",
-image: ["https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf_105762-2104.jpg?w=1060&t=st=1673522496~exp=1673523096~hmac=29ec89d426d9d79f7cc0e3791093165fded5790d187a45d17fd0676aae6c2a31", "https://img.freepik.com/free-photo/room-interior-design_23-2148899461.jpg?w=996&t=st=1673522557~exp=1673523157~hmac=b461cb694a5170eb0889eb3c4ec403da6ddab91a81b09660b7520b817fa5f324"],
+description: "Two bathroom apartment, close to schools, shopping centres and park, has a new furniture. Furnished, some new windows, new carpet. For further information contact an agent: Paolo Garsia. Phone: +1 234 567-89-00",
+image: ["https://img.freepik.com/free-photo/3d-rendering-luxury-modern-bedroom-suite-tv-with-wardrobe-walk-closet_105762-1941.jpg?w=1380&t=st=1673522598~exp=1673523198~hmac=a667f38a1627cf2635c99327d28889305f81562c1066b1ebd60593dba9e1bdc8"],
 },
 
 {
     id: 2,
-    searchTerm: "two",
+    searchTerm: "five",
     name: "Two-room apartment",
     adress: "1159 GESELL RD EAST MEREDITH NY 13757-1111 USA",
     price: 480000,
@@ -21,7 +21,7 @@ image: ["https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room
 
 {
     id: 3,
-    searchTerm: "three",
+    searchTerm: "six",
     name: "Three-room apartment",
     adress: "6000 HILLCROFT DR BOSTON NY 14025-9688 USA",
     price: 510000,

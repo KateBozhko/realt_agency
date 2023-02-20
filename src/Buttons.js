@@ -1,14 +1,14 @@
-function Buttons() {
+function Buttons({newHouses}) {
     return(
         <div className="wrapper">
 <div className="filter-title">
 <h1>Filter by the rooms:</h1>
 </div>
 <div className="buttons-position">
-<button>4 rooms</button>
-<button>5 rooms</button>
-<button>6 rooms</button>
-<button>7 rooms</button>
+<button onClick={() => newHouses('four')}>4 rooms</button>
+<button onClick={() => newHouses('five')}>5 rooms</button>
+<button onClick={() => newHouses('six')}>6 rooms</button>
+<button onClick={() => newHouses('seven')}>7 rooms</button>
 </div>
         </div>
     )
