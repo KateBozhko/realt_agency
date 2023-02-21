@@ -25,9 +25,9 @@ setPicture((picture => {
 
     return(
         <div>
-<img src={picturesProp[picture]} width="400px" alt="home"/>
-<button onClick={prevBtn}>-</button>
-<button onClick={nextBtn}>+</button>
+<img src={picturesProp[picture]} width="400px" height="250px" alt="home"/>
+<button className="btnPic" onClick={prevBtn}>-</button>
+<button className="btnPic" onClick={nextBtn}>+</button>
         </div>
     )
 }

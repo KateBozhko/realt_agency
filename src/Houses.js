@@ -8,17 +8,17 @@ return(
     <div className="houses-wrapper" key={id}>
             <div className="order">
         <h1>{id} - {name}</h1>
-    </div>
-<div>
-   
+  
     <Pictures picturesProp={image}/>
-   
+
 </div>
-<div>
-<p>Description: {description.substring(0, 40)}</p>
-</div>
+<div className="description">
+<p>Description: {description.substring(0, 40)}
+<button>See more</button></p>
+
 <p>Adress: {adress}</p>
 <p>Price: $ {price}</p>
+    </div>
     </div>
 )
             }))}

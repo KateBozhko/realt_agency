@@ -5,11 +5,11 @@ function Intro() {
     return(
         <div className="container">
         <div className="title">
-            <img className="logo" src={logo} width="50px" alt="logo"/>
-        <h1>Find the best house in your life...</h1>
+           
+        <h1>Realt agency "YOUR HOME"</h1>
         </div>
 <div className="information">
-<p>Our professional experts'll find a house according your preferenсes and budget.</p>
+<p>Our professional experts'll find a house according to your preferenсes and budget.</p>
 </div>
         </div>
     )

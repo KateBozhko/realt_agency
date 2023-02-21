@@ -5,6 +5,7 @@ body {
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
+    background-color: rgba(75, 71, 71, 0.2);
 }
 .main {
  height: 100vh;
@@ -74,26 +75,82 @@ h1 {
     display: flex;
     justify-content: center;
      flex-direction: column;
- 
+ align-items: center;
 }
-button {
+.btn {
     font-size: 20px;
     width: 30%;
-    margin: 0 auto;
+    margin: 3px;
     border-radius: 50px;
     box-shadow: 20px 2px 20px;
     margin-bottom: 5px;
 }
 
-button:hover {
+.btn:hover {
     transform: scale(1.4);
    box-shadow: 8px 5px 8px 5px;
 }
-/*Buttons STYLE end*/
+/*Buttons STYLE End*/
 
 /*Houses STYLE Start*/
 .houses-wrapper {
+    background-color: rgb(205, 201, 201);
     display: flex;
-    
-    
+    justify-content: center;
+    margin: 0 auto;
+    border: 2px solid yellowgreen;  
+    width: 60%;
+    box-shadow: 20px 2px 20px;
+}
+.description {
+    margin-top: 60px;
+}
+/*Houses STYLE End*/
+
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+button {
+    font-family: 'Lato', sans-serif;
+}
+.link {
+    font-family: 'Lato', sans-serif;
+}
+.btnPic {
+    font-size: 20px;
+    width: 30%;
+    margin: 3px;
+    border-radius: 50px;
+    box-shadow: 20px 2px 20px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
+.btnPic:hover {
+    transform: scale(1.4);
+   box-shadow: 8px 5px 8px 5px;
+}
+.contacts {
+    color:  white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+.about {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+
+.video {
+    width: 100%;
+}
+.video-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 70px;
 }

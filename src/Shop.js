@@ -3,6 +3,7 @@ import Buttons from "./Buttons";
 import Houses from "./Houses";
 import { data } from "./data";
 import { useState } from "react"
+import Footer from "./Footer";
 
 function Shop() {
     const [houses, setHouses] = useState(data);
@@ -16,6 +17,7 @@ return(
             <Intro/>
             <Buttons newHouses={newHouses}/>
             <Houses houses={houses}/>
+            <Footer/>
         </div>
 )
 }

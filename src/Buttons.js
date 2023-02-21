@@ -5,10 +5,10 @@ function Buttons({newHouses}) {
 <h1>Filter by the rooms:</h1>
 </div>
 <div className="buttons-position">
-<button onClick={() => newHouses('four')}>4 rooms</button>
-<button onClick={() => newHouses('five')}>5 rooms</button>
-<button onClick={() => newHouses('six')}>6 rooms</button>
-<button onClick={() => newHouses('seven')}>7 rooms</button>
+<button className="btn" onClick={() => newHouses('four')}>4 rooms</button>
+<button className="btn" onClick={() => newHouses('five')}>5 rooms</button>
+<button className="btn" onClick={() => newHouses('six')}>6 rooms</button>
+<button className="btn" onClick={() => newHouses('seven')}>7 rooms</button>
 </div>
         </div>
     )
