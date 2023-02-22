@@ -12,23 +12,31 @@ import Contacts from "./Contacts";
 import About from "./About";
 import image from "./logo.jpg"
 import Intro from "./Intro";
-
-
 function App() {
-  return(<div className="main">
-<Router>
-<nav>
-<Link to="/" className="link">Shop</Link>
-<Link to="/about" className="link">About us</Link>
-<Link to="/contacts" className="link">Our contacts</Link>
-</nav>
-<Routes>
-<Route path="/" element={<Shop/>}/>
-<Route path="/about" element={<About/>}/>
-<Route path="/contacts" element={<Contacts/>}/>
-</Routes>
-</Router>
- </div> )
-
+return(
+<div className="main">
+   <Router>
+      <nav className="header">
+         <Link to="/" className="link">
+         Shop</Link>
+         <Link to="/about" className="link">
+         About us</Link>
+         <Link to="/contacts" className="link">
+         Our contacts</Link>
+      </nav>
+      <Routes>
+         <Route path="/" element={
+         <Shop/>
+         }/>
+         <Route path="/about" element={
+         <About/>
+         }/>
+         <Route path="/contacts" element={
+         <Contacts/>
+         }/>
+      </Routes>
+   </Router>
+</div>
+)
 }
 export default App;

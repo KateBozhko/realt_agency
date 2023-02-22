@@ -6,19 +6,18 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgba(75, 71, 71, 0.2);
-}
-.main {
- height: 100vh;
+    }
+    .main {
+    height: 100vh;
     background-image: linear-gradient(rgba(29, 18, 18, 0.4),rgba(67, 38, 52, 0.6));
-}
-
-/*HEADER STYLE START*/
-.link {
+    }
+    /*HEADER STYLE START*/
+    .link {
     text-decoration: none;
     color: black;
     font-size: 20px;
-}
-nav {
+    }
+    nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -30,70 +29,65 @@ nav {
     font-weight: bold;
     box-shadow: 20px 2px 20px;
     width: 100%;
-    
-    
-}
-.link:hover {
+    }
+    .link:hover {
     transform: scale(1.4);
-   box-shadow: 8px 5px 8px 5px;
-}
-/*HEADER STYLE END*/
-
-/*Intro STYLE START*/
-
-    
-.title {
+    box-shadow: 8px 5px 8px 5px;
+    }
+    .header_active {
+    background: black;
+    }
+    /*HEADER STYLE END*/
+    /*Intro STYLE START*/
+    .title {
     margin-top: 150px;
     color: white;
     font-size: 30px;
     margin-left: 50px;
-}
-.information {
+    }
+    .information {
     font-size: 25px;
     color: wheat;
     margin-left: 650px;
-}
-h1 {
+    }
+    h1 {
     max-width: 700px;
-}
-/*Intro STYLE END*/
-/*Buttons STYLE Start*/
-.wrapper {
+    }
+    /*Intro STYLE END*/
+    /*Buttons STYLE Start*/
+    .wrapper {
     max-width: 800px;
     background-color: azure;
     margin: 0 auto;
     height: 450px;
     margin-top: 110px;
     box-shadow: 20px 2px 20px;
-}
-
-.filter-title {
+    }
+    .filter-title {
     display: flex;
     justify-content: center;
-}
-.buttons-position {
+    }
+    .buttons-position {
     display: flex;
     justify-content: center;
-     flex-direction: column;
- align-items: center;
-}
-.btn {
+    flex-direction: column;
+    align-items: center;
+    }
+    .btn {
     font-size: 20px;
     width: 30%;
     margin: 3px;
     border-radius: 50px;
     box-shadow: 20px 2px 20px;
     margin-bottom: 5px;
-}
-
-.btn:hover {
+    }
+    .btn:hover {
     transform: scale(1.4);
-   box-shadow: 8px 5px 8px 5px;
-}
-/*Buttons STYLE End*/
-
-/*Houses STYLE Start*/
-.houses-wrapper {
+    box-shadow: 8px 5px 8px 5px;
+    }
+    /*Buttons STYLE End*/
+    /*Houses STYLE Start*/
+    .houses-wrapper {
     background-color: rgb(205, 201, 201);
     display: flex;
     justify-content: center;
@@ -102,27 +96,25 @@ h1 {
     width: 60%;
     box-shadow: 20px 2px 20px;
     margin-bottom: 10px;
-}
-
-.description {
+    }
+    .description {
     margin-top: 60px;
-}
-/*Houses STYLE End*/
-
-h1, h2 {
-    font-family: 'Lato', sans-serif;
-}
-p {
-    font-family: 'Lato', sans-serif;
+    }
+    /*Houses STYLE End*/
+    h1, h2 {
+    font-family: 'Arial';
+    }
+    p {
+    font-family: 'Arial';
     font-size: 20px;
-}
-button {
-    font-family: 'Lato', sans-serif;
-}
-.link {
-    font-family: 'Lato', sans-serif;
-}
-.btnPic {
+    }
+    button {
+    font-family: 'Arial';
+    }
+    .link {
+    font-family: 'Arial';
+    }
+    .btnPic {
     font-size: 20px;
     width: 30%;
     margin: 3px;
@@ -130,50 +122,52 @@ button {
     box-shadow: 20px 2px 20px;
     margin-bottom: 5px;
     margin-left: 40px;
-}
-.btnPic:hover {
+    }
+    .btnPic:hover {
     transform: scale(1.4);
-   box-shadow: 8px 5px 8px 5px;
-}
-.contacts {
+    box-shadow: 8px 5px 8px 5px;
+    }
+    .see {
+    border-radius: 20px;
+    font-family: 'Arial';
+    background-color: rgb(206, 239, 187);
+    font-weight: bold;
+    }
+    .contacts {
     color:  white;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 200px;
-}
-.about {
+    }
+    .about {
     width: 600px;
     margin: 0 auto;
     margin-top: 300px;
-}
-
-/*Footer STYLE Start*/
-.video {
+    }
+    /*Footer STYLE Start*/
+    .video {
     width: 100%;
-}
-.video-wrapper {
+    }
+    .video-wrapper {
     max-width: 1400px;
     margin: 0 auto;
     margin-top: 70px;
-}
-
-.wrapper-footer {
+    }
+    .wrapper-footer {
     background: #0E1D28;
     padding: 119px;
     display: flex;
     justify-content: center;
-}
-.footer-item {
+    }
+    .footer-item {
     color: white;
     font-size: 20px;
-}
-.logo {
+    }
+    .logo {
     margin-right: 60px;
-}
-.logo-item {
+    }
+    .logo-item {
     display: flex;
-    
-}
-
-/*Footer STYLE End*/
+    }
+    /*Footer STYLE End*/
