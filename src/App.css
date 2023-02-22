@@ -101,7 +101,9 @@ h1 {
     border: 2px solid yellowgreen;  
     width: 60%;
     box-shadow: 20px 2px 20px;
+    margin-bottom: 10px;
 }
+
 .description {
     margin-top: 60px;
 }
@@ -146,6 +148,7 @@ button {
     margin-top: 300px;
 }
 
+/*Footer STYLE Start*/
 .video {
     width: 100%;
 }
@@ -154,3 +157,23 @@ button {
     margin: 0 auto;
     margin-top: 70px;
 }
+
+.wrapper-footer {
+    background: #0E1D28;
+    padding: 119px;
+    display: flex;
+    justify-content: center;
+}
+.footer-item {
+    color: white;
+    font-size: 20px;
+}
+.logo {
+    margin-right: 60px;
+}
+.logo-item {
+    display: flex;
+    
+}
+
+/*Footer STYLE End*/
