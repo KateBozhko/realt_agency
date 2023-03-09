@@ -1,4 +1,4 @@
-import {data} from "./data"
+
 function Buttons({newHouses}) {
 return(
 <div className="wrapper">

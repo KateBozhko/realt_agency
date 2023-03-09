@@ -1,5 +1,4 @@
 import "./App.css";
-import logo from "./logo.jpg"
 function Intro() {
 return(
 <div className="container">

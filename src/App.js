@@ -6,12 +6,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import {data} from "./data";
 import Shop from "./Shop";
 import Contacts from "./Contacts";
 import About from "./About";
-import image from "./logo.jpg"
-import Intro from "./Intro";
 function App() {
 return(
 <div className="main">

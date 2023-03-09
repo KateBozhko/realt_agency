@@ -8,7 +8,7 @@ setShowmore(!showMore);
 return(
 <div>
    {houses.map((house => {
-   const {id, searchTerm, name, adress, price, description, image} = house;
+   const {id, name, adress, price, description, image} = house;
    return(
    <div className="houses-wrapper" key={id}>
       <div className="order">
